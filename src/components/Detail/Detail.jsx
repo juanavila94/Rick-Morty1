@@ -23,7 +23,7 @@ export function Detail(){
       }, [detailId]);
     return (
         <>
-            <Link to="/" >
+            <Link to="/home" >
                 <button>Back</button>
             </Link>
             <h2>{character?.name}</h2>
